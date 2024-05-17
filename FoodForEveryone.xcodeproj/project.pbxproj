@@ -28,6 +28,12 @@
 		F670AC672BF7B233001051FD /* PaymentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670AC622BF7B233001051FD /* PaymentScreen.swift */; };
 		F670AC682BF7B233001051FD /* SuccessScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670AC632BF7B233001051FD /* SuccessScreen.swift */; };
 		F670AC692BF7B233001051FD /* LocationSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670AC642BF7B233001051FD /* LocationSelectionView.swift */; };
+		F670AC6B2BF7B579001051FD /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670AC6A2BF7B579001051FD /* ProductList.swift */; };
+		F670AC6D2BF7B5A9001051FD /* Home Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670AC6C2BF7B5A9001051FD /* Home Screen.swift */; };
+		F670AC732BF7B5E5001051FD /* RestaurantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670AC6E2BF7B5E5001051FD /* RestaurantList.swift */; };
+		F670AC742BF7B5E5001051FD /* LogIn Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670AC6F2BF7B5E5001051FD /* LogIn Page.swift */; };
+		F670AC762BF7B5E5001051FD /* SignUp Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670AC712BF7B5E5001051FD /* SignUp Page.swift */; };
+		F670AC772BF7B5E5001051FD /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670AC722BF7B5E5001051FD /* NavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +78,12 @@
 		F670AC622BF7B233001051FD /* PaymentScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentScreen.swift; sourceTree = "<group>"; };
 		F670AC632BF7B233001051FD /* SuccessScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessScreen.swift; sourceTree = "<group>"; };
 		F670AC642BF7B233001051FD /* LocationSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationSelectionView.swift; path = "../../../../FoodForEveryone /FoodForEveryone/Screens/LocationSelectionView.swift"; sourceTree = "<group>"; };
+		F670AC6A2BF7B579001051FD /* ProductList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		F670AC6C2BF7B5A9001051FD /* Home Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Home Screen.swift"; sourceTree = "<group>"; };
+		F670AC6E2BF7B5E5001051FD /* RestaurantList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantList.swift; sourceTree = "<group>"; };
+		F670AC6F2BF7B5E5001051FD /* LogIn Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LogIn Page.swift"; sourceTree = "<group>"; };
+		F670AC712BF7B5E5001051FD /* SignUp Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignUp Page.swift"; sourceTree = "<group>"; };
+		F670AC722BF7B5E5001051FD /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +172,12 @@
 		760748C62BF09E4700E3DB8B /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				F670AC6F2BF7B5E5001051FD /* LogIn Page.swift */,
+				F670AC722BF7B5E5001051FD /* NavigationBar.swift */,
+				F670AC6E2BF7B5E5001051FD /* RestaurantList.swift */,
+				F670AC712BF7B5E5001051FD /* SignUp Page.swift */,
+				F670AC6C2BF7B5A9001051FD /* Home Screen.swift */,
+				F670AC6A2BF7B579001051FD /* ProductList.swift */,
 				F670AC602BF7B232001051FD /* Choose your Role Screen.swift */,
 				F670AC612BF7B233001051FD /* Donate.swift */,
 				F670AC642BF7B233001051FD /* LocationSelectionView.swift */,
@@ -312,15 +330,21 @@
 				76B690E82BF19EBF00280748 /* Launch Screen.swift in Sources */,
 				765E68082BF30E3900ABD0F6 /* Cart.swift in Sources */,
 				76B690F62BF1FD4500280748 /* Product Model.swift in Sources */,
+				F670AC772BF7B5E5001051FD /* NavigationBar.swift in Sources */,
 				765E680C2BF30EB500ABD0F6 /* CartManager.swift in Sources */,
 				76B690EC2BF1DC5300280748 /* Onboarding Screen 3.swift in Sources */,
 				76B690EA2BF1A4DC00280748 /* Onboarding Screen 2.swift in Sources */,
 				F670AC662BF7B233001051FD /* Donate.swift in Sources */,
+				F670AC742BF7B5E5001051FD /* LogIn Page.swift in Sources */,
 				F670AC652BF7B233001051FD /* Choose your Role Screen.swift in Sources */,
+				F670AC732BF7B5E5001051FD /* RestaurantList.swift in Sources */,
+				F670AC762BF7B5E5001051FD /* SignUp Page.swift in Sources */,
 				F670AC672BF7B233001051FD /* PaymentScreen.swift in Sources */,
+				F670AC6D2BF7B5A9001051FD /* Home Screen.swift in Sources */,
 				76B690E42BF19AFC00280748 /* Onboarding Screen 1.swift in Sources */,
 				CEC114D72BF6E57300ED671F /* ProfileView.swift in Sources */,
 				765E680A2BF30E6B00ABD0F6 /* CartItem.swift in Sources */,
+				F670AC6B2BF7B579001051FD /* ProductList.swift in Sources */,
 				7607489B2BEF691700E3DB8B /* FoodForEveryoneApp.swift in Sources */,
 				76B690FA2BF20BAA00280748 /* Product.swift in Sources */,
 			);
